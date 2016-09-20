@@ -1,0 +1,149 @@
+.buttonbox{
+	margin:10%;
+	margin-top:2.5%;
+	width: 80%;
+	padding-bottom: 28%;
+	position: absolute;
+	background-color: #b82b1b;
+	border-radius: 5000px;
+}
+
+.button{
+	margin:2.5%;
+	width: 30%;
+	padding-bottom: 30%;
+	position: absolute;
+	border-radius: 5000px;
+	background-color: #FFD767;
+	transition: background-color 0.1s linear;
+	background-repeat: no-repeat;
+	background-position: 50%; 
+    background-size:70%;
+}
+
+.button:hover{
+	background-color: #FF8173;
+}
+
+.button:active{
+	background-color: #a4d9bd;
+}
+
+.play{
+	left:32.5%;
+	background-image: url('../image/splay.png');
+    background-position: 65%; 
+}
+
+.stop{
+	left:32.5%;
+	background-image: url('../image/sstop.png');
+
+}
+
+.pause{
+	left:32.5%;
+	background-image: url('../image/spause.png');
+}
+
+.next{
+	left:65%;
+	background-image: url('../image/snext.png');
+}
+
+.prev{
+	background-image: url('../image/sprev.png');
+}
+
+body
+{
+	background-color: #63332D;
+	width:100%; height:100%;
+	padding:0px; margin:0px;
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.controlBox {
+	width: 100%;
+	padding-bottom: 47%;
+	position: relative;
+	background-color: #63332D;
+}
+
+.namebox{
+	margin:7%;
+	margin-top:32.5%;
+	width: 86%;
+	padding-bottom: 7.5%;
+	position: absolute;
+	background-color: #b82b1b;
+	line-height: 100%;
+	border-radius: 5000px;
+}
+
+.namebox a{
+	display:block;
+	position:absolute;
+	top:38%;
+	left:4%;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size:200%;
+	color:#FFD767;
+}
+
+.timebar{
+	margin:5%;
+	margin-top:42%;
+	width: 90%;
+	padding-bottom: 3%;
+	position: absolute;
+	background-color: #cc2f1e;
+	border-radius: 5000px;
+}
+
+.display{
+	width:30%;
+	padding-bottom: 3.4%;
+	position: absolute;
+	background-color: #ffb300;
+	border-radius: 5000px;
+	background-color: #FFD767;
+}
+
+
+.listbox{
+	background-color: #400000;
+}
+
+.songtag{
+	line-height: 100%;
+	width: 100%;
+	height:10%;
+	padding-top:7.5%;
+	padding-bottom:7.5%;
+	position: relative;
+	margin-top:1%;
+	margin-botton:1%;
+}
+.songtag a{
+	display:block;
+	position:absolute;
+	top:45%;
+	left:4%;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size:200%;
+}
+
+.on{
+	background-color: #FFD767;
+}
+.on a{
+	color:#b82b1b;
+}
+.off{
+	background-color: #b82b1b;
+}
+.off a{
+	color:#FF8173;
+}
